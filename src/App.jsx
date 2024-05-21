@@ -1,23 +1,37 @@
 import "./App.css"
 
-import Layout from "./componente/layout"
+import Content from "./componente/teams/components/content"
+import Main from "./componente/teams/components/main"
+import Section from "./componente/teams/components/section"
 
-import accelerate from "./assets/images/svg/accelerate-svgrepo-com.svg"
-import computer from "./assets/images/svg/computer-svgrepo-com.svg"
-import user from "./assets/images/svg/user-svgrepo-com.svg"
-import cell from "./assets/images/svg/cell-phone-svgrepo-com.svg"
-import conversation from "./assets/images/svg/conversation-svgrepo-com.svg"
 
 
 function App() {
   return (
 
   <body>
-    
-    <Layout>
+      <div className="align-all">
+        <div className="align-contente">
+          <Content/>
+        </div>
+
+        <div className="align-section">
+          <Section/>
+          <Section/>
+          <Section/>
+        </div>
+
+        <div className="align-section2">
+          <Section/>
+          <Section/>
+          <Section/>
+        </div>
+
+        <div>
+        <Main/>
+        </div>
         
-    </Layout> 
-   
+      </div>
   </body>
 
 

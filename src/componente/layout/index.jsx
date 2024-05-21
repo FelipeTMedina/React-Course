@@ -21,7 +21,7 @@ export default function Layout(props) {
             </button>
           </div>
         </div>
-        <img src={Image} alt="" />
+          <img src={Image} alt=""/>
       </div>
     </div>
   )
