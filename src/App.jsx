@@ -1,4 +1,4 @@
-import "./App.css"
+import "../src/componente/teams/style.css"
 
 import Content from "./componente/teams/components/content"
 import Main from "./componente/teams/components/main"
@@ -26,11 +26,10 @@ function App() {
           <Section/>
           <Section/>
         </div>
-
+        
         <div>
         <Main/>
         </div>
-        
       </div>
   </body>
 

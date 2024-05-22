@@ -3,18 +3,24 @@
  align-items: center;
  justify-content: center;
  flex-direction: column;
- gap: 16px;
  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
 }
 
-.aling-itens{
+.content-filho{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
+.content-filho >h1{
+    font-size: 50px;
+}
+
+.content-filho >p{
+    margin-top: -10px;
+}
 .pai-section{
     display: flex;
     justify-content: baseline;
@@ -54,8 +60,32 @@
 .filho-button > button {
     width: 155px;
     height: 48px;
+    background: transparent;
 }
 
-.aling-all{
-   
-}
+.align-all{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  
+  .align-section{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+  
+  }
+  
+  .align-section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+  }
+  
+  .align-contente{
+    display: flex;
+    justify-content: center;
+  
+  }
