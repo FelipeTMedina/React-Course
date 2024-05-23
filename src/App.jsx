@@ -1,36 +1,15 @@
-import "../src/componente/teams/style.css"
+import './componente/Contact-us/style.css'
 
-import Content from "./componente/teams/components/content"
-import Main from "./componente/teams/components/main"
-import Section from "./componente/teams/components/section"
-
+import Contactcontent from "./componente/Contact-us/src/components/contact-content.composition";
+import Contactmain from "./componente/Contact-us/src/components/contact-main.composition";
 
 
 function App() {
   return (
 
   <body>
-      <div className="align-all">
-        <div className="align-contente">
-          <Content/>
-        </div>
-
-        <div className="align-section">
-          <Section/>
-          <Section/>
-          <Section/>
-        </div>
-
-        <div className="align-section2">
-          <Section/>
-          <Section/>
-          <Section/>
-        </div>
-        
-        <div>
-        <Main/>
-        </div>
-      </div>
+    <Contactcontent/>
+    <Contactmain/>
   </body>
 
 
